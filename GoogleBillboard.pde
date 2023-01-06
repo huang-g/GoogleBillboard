@@ -49,7 +49,7 @@ public void part2 (int n) {
       count++;
     }
     if(count == n) {
-      System.out.println("f(5) = " + frag);
+      System.out.println("f(" + n + ") = " + frag);
       found = true;
       break;
     }
